@@ -1,0 +1,39 @@
+body{
+    font-family: "Open Sans", serif;
+    background-color: rgb(87, 138, 187);
+}
+
+.container{
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(76, 121, 163);
+    box-shadow: 0 2px 4px rgb(65, 65, 65);
+
+
+}
+
+h1, p, h2{
+    color: white;
+}
+
+input[type= "text"]{
+    padding: 10px;
+    font-size: 16px;
+    width: 60%;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(133, 192, 247);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#responseData{
+    margin-top: 20px;
+    font-size: 18px;
+}
